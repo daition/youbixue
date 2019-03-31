@@ -1,0 +1,26 @@
+a.weixin{
+    position:relative;
+  }
+
+ .weixin::after{
+   content: url(../images/qrcode_for_gh_a5d78bb9eb6a_258.jpg);
+   position: absolute;
+   right: 28px;
+   top: 28px;
+   z-index: 99;
+   width:96px;
+   height: 96px;
+   border: 5px solid #0095ba;
+   border-radius: 4px;
+   transform-origin: top right;
+   transform: scale(0);
+   opacity: 0;
+   -webkit-transition: all .4s ease-in-out;
+   -o-transition: all .4s ease-in-out;
+   transition: all .4s ease-in-out;
+ }
+
+ .weixin:hover::after{
+    transform:scale(1);
+    opacity: 1;
+  }
