@@ -43,7 +43,7 @@
 
 .language {
     margin-left: 55px;
-    position: relative;
+    /*position: relative;*/
 }
 
 .language a {
@@ -51,27 +51,28 @@
     font-size: 14px;
 }
 
-.language a span {
-    float: left;
-    margin: 6px 5px 0 10px;
-}
 
-.language a i {
-    font-size: 16px;
-    float: left;
-}
-
-.language a i:first-of-type {
-    font-size: 22px;
-}
-
-.language a i:last-of-type {
-    margin-top: 5px;
-}
-
-.language a:hover {
-    color: #67912f;
-}
+/* .language a span {
+        float: left;
+        margin: 6px 5px 0 10px;
+    }
+    
+    .language a i {
+        font-size: 16px;
+        float: left;
+    }
+    
+    .language a i:first-of-type {
+        font-size: 22px;
+    }
+    
+    .language a i:last-of-type {
+        margin-top: 5px;
+    }
+    
+    .language a:hover {
+        color: #67912f;
+    } */
 
 .login-or-signup {
     margin-left: 40px;
@@ -455,7 +456,7 @@
 .slider-content h2 {
     font-size: 50px;
     color: #148487;
-    font-family: 'Flavors', cursive;
+    font-family: "Flavors", cursive;
     margin-bottom: 8px;
 }
 
@@ -512,7 +513,7 @@
 
 .primary-btn:before {
     border-radius: 4px;
-    background-color: rgba(0, 0, 0, .149);
+    background-color: rgba(0, 0, 0, 0.149);
     position: absolute;
     content: "";
     left: 0;
@@ -655,7 +656,7 @@ img.slide-cloud {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .slider-area .container {
@@ -700,7 +701,7 @@ img.slide-cloud {
 
 .owl-nav .owl-prev:hover,
 .owl-nav .owl-next:hover {
-    color: rgba(255, 255, 255, .3);
+    color: rgba(255, 255, 255, 0.3);
 }
 
 div.owl-controls {
@@ -962,7 +963,7 @@ div.owl-controls {
 }
 
 .class-hover {
-    background: rgba(146, 39, 143, .8);
+    background: rgba(146, 39, 143, 0.8);
     position: absolute;
     left: 0;
     top: 0;
@@ -1126,8 +1127,8 @@ div.owl-controls {
 .team-img:hover:after {
     -webkit-transform: skew(45deg) scaleX(1);
     transform: skew(45deg) scaleX(1);
-    -webkit-transition: all .7s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
-    transition: all .7s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+    -webkit-transition: all 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+    transition: all 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
 }
 
 .team-img img {
@@ -1679,7 +1680,6 @@ button.primary-btn span {
 .home3 .testimonial-details span,
 .home3 .testimonial-details p {
     color: #9a9a9a;
-    ;
 }
 
 .home3 #testimonial-carousel .carousel-indicators li {
@@ -2192,7 +2192,7 @@ button.primary-btn span {
 .coming-soon-subs-form input {
     width: 632px;
     height: 50px;
-    color: rgba(0, 0, 0, .4);
+    color: rgba(0, 0, 0, 0.4);
     border: 1px solid #e6e6e6;
     margin: 0 auto;
     padding: 0 15px;
@@ -2490,7 +2490,7 @@ ul.date {
 }
 
 .paginations.post-pagi li:first-child a i {
-    line-height: .5;
+    line-height: 0.5;
 }
 
 .paginations.post-pagi li:last-child a {
@@ -2504,7 +2504,7 @@ ul.date {
 }
 
 .paginations.post-pagi li:last-child a i {
-    line-height: .5;
+    line-height: 0.5;
 }
 
 
@@ -2803,16 +2803,16 @@ ul.date {
 }
 
 .bio-details:before {
-    font-family: 'kidzy-icon';
+    font-family: "kidzy-icon";
     content: "\e900";
     position: absolute;
     top: 32px;
     left: -36px;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
     font-size: 30px;
     color: #250e8d;
 }
@@ -3569,14 +3569,14 @@ ul.date {
     color: #6a6a6a;
     outline: none;
     z-index: 100;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
 .modal-content .close:hover,
 .modal-content .close:focus {
-    opacity: .8;
+    opacity: 0.8;
     outline: none;
 }
 

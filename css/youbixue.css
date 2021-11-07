@@ -16,9 +16,9 @@ a.baijiahao {
     transform-origin: top right;
     transform: scale(0);
     opacity: 0;
-    -webkit-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .weixin::after {
@@ -35,10 +35,17 @@ a.baijiahao {
     opacity: 1;
 }
 
+.content-navigation,
 .content-navigation a {
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.white-text a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
 }
 
 .foot-text {
