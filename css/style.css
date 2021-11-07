@@ -148,7 +148,8 @@
     overflow: hidden;
 }
 
-.main-menu {
+
+/* .main-menu {
     margin: 13px 0 0;
 }
 
@@ -261,7 +262,7 @@
 
 .main-menu li:last-child a:after {
     display: none;
-}
+} */
 
 .menu-has-child:before {
     content: "\f107";

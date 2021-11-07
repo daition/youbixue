@@ -42,6 +42,14 @@ a.baijiahao {
     font-size: 18px;
 }
 
+.colorful-text,
+.colorful-text a {
+    font-size: 22px;
+    color: #8ac53f;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
 .white-text a {
     text-decoration: none;
     color: #fff;
