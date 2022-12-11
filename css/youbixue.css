@@ -31,7 +31,7 @@ a.baijiahao {
 
 .weixin:hover::after,
 .baijiahao:hover::after {
-    transform: scale(1);
+    transform: scale(0.5);
     opacity: 1;
 }
 
@@ -58,5 +58,137 @@ a.baijiahao {
 
 .foot-text {
     color: #fff;
-    font-size: 24px;
+    font-size: 12px;
+}
+
+.yb-header-top {
+    background-color: #00aae5;
+}
+
+
+/* Footer Section
+   ========================================================================== */
+
+.footer-section {
+    background: url(../images/home1/footer2-bg.jpg) no-repeat scroll center center / cover;
+    position: relative;
+    padding: 80px 0 307px;
+}
+
+.footer-section:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    background: url(../images/home1/footer-bottom-bg.png) no-repeat scroll center center / cover;
+    width: 100%;
+    height: 275px;
+}
+
+.footer-widget h3 {
+    font-size: 16px;
+    color: #fff;
+    margin: 0 0 22px;
+}
+
+.about-widget {
+    padding-right: 60px;
+}
+
+.about-widget p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 18px 0 14px;
+}
+
+.about-widget span {
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+}
+
+.about-widget .social-icon {
+    margin-top: 32px;
+}
+
+.about-widget .social-icon li:first-child a {
+    margin-left: 0;
+}
+
+.about-widget .social-icon li a:hover {
+    color: #521150;
+}
+
+.footer-widget ul li {
+    display: block;
+}
+
+.footer-widget ul li a {
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    line-height: 24px;
+    position: relative;
+    padding-left: 0;
+}
+
+.footer-widget ul li a:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    font-size: 12px;
+    color: #fff;
+    display: inline-block;
+    visibility: hidden;
+    opacity: 0;
+    padding-right: 0;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.footer-widget ul li a:hover:before {
+    visibility: visible;
+    opacity: 1;
+    padding-right: 5px;
+}
+
+.footer-widget p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.subscribe-form {
+    margin-top: 22px;
+}
+
+.subscribe-form input {
+    width: 230px;
+    height: 37px;
+    padding: 0 0 0 20px;
+    color: #bdbbbb;
+    background: #fff;
+    border: none;
+    border-radius: 4px;
+    float: left;
+    box-shadow: 0 4px #7c217a;
+}
+
+button.primary-btn {
+    background: transparent;
+    padding: 0;
+    border: none;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+button.primary-btn span {
+    padding: 8px 20px;
 }
