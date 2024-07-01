@@ -22,7 +22,7 @@ a.baijiahao {
 }
 
 .weixin::after {
-    content: url(../images/qrcode_for_gh_a5d78bb9eb6a_258.jpg);
+    content: url(../images/qrcode_for_oftenuse.jpg);
 }
 
 .baijiahao::after {
